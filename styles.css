@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcoral;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.forms{
+position: absolute;
+top: 45%;
+left: 40%;
+}
+#email{
+    background-color: lightcoral;
+    height: 35px;
+    width: 220px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+label{
+    font-size: large;
+    position: relative;
+    right:13rem;
+background-color: lightcoral; 
+}
+
+input:hover + label{
+    border:none;
+    font-size : small;
+    padding-left: 5px;   
+    padding-right: 5px;     
+    position: relative;
+    top:-1rem;
+    transition: 200ms;
+
+}
+
+
+
+
+
+
